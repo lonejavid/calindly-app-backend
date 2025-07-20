@@ -33,6 +33,7 @@ app.use(
 
 app.get("/test",async(req:Request,res:Response,next:NextFunction)=>{
   console.log("I am being called ");
+  console.log("test");
 });
 
 
